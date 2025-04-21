@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #505050;
+  font-family: Impact, sans-serif;
+}
+
+h2 {
+  font-size: 4.5em
+}
+
+p {
+  font-size: 1.5em
+}
+
+.heading {
+  height: 250px;
+  width: auto;
+  padding: 30px;
+  background: linear-gradient(45deg, #ffde59, #ff914d);
+}
+
+.blue {
+    background: linear-gradient(45deg, #004aad, #38b6ff);
+}
+
+.mixed {
+    background: linear-gradient(45deg, #004aad, #ff914d);
+}
+
+.heading_text {
+  text-align: center;
+  font-size: 10em;
+  color: #fff;
+}
+
+.quick-scroll {
+  height: 50px;
+  width: auto;
+  border-top: 3px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-left: 2px solid #fff;
+  color: #fff;
+  background-color: #3a3a3a;
+
+  display: flex;
+  justify-content: space-between
+}
+
+.scroller {
+  height: 47px;
+  flex: 1;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding: 15px;
+  display: flex;
+}
+
+.section-info {
+  padding: 65px;
+  color: #fff;
+}
+
+.section-info_sub {
+  display: inline-block;
+}
+
+.text-info {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image {
+  height: 300px;
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 50px;
+  background-image: url("img/logo.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo-a {
+    background-image: url("img/logoA.png");
+}
+
+.logo-b {
+    background-image: url("img/logoB.png");
+}
+
+.f-figure-1 {
+    background-image: url("img/FootballFigure1.png");
+}
+
+.f-figure-2 {
+    background-image: url("img/FootballFigure2.png");
+}
+
+.f-figure-3 {
+    background-image: url("img/FootballFigure3.png");
+}
+
+.f-figure-4 {
+    background-image: url("img/FootballFigure4.png");
+}
+
+.f-figure-5 {
+    background-image: url("img/FootballFigure5.png");
+}
+
+.f-figure-6 {
+    background-image: url("img/FootballFigure6.png");
+}
+
+.image_left {
+    margin-right: 30px;
+    margin-left: 0;
+}
+
+.top-separation {
+    margin-top: 40px;
+}
